@@ -1,0 +1,27 @@
+#grad{
+  background-image: linear-gradient(to bottom right,#06FF48 ,#06FFAD);
+}
+h2{
+  font-family:Cormorant Infant;
+  font-size: 3em;
+  border-bottom: 2px solid pink;
+  width: 400px;
+  border-right: 2px solid pink;
+  text-align: center;
+  box-shadow: 4px 4px 5px #888888;
+
+}
+.container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+img{
+  width: 400px;
+  height: 350px;
+  margin: 10px;
+  transition: all 1s;
+}
+img:hover{
+  transform: scale(1.05);
+}
